@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Square game</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="game.css">
+	</head>
+	<body>
+		<!-- these codes were adapted from https://courses.cs.washington.edu/courses/cse154/17sp/lecture/more-dom/code/squares.html  -->
+		<h1>Game of Box</h1>
+		<fieldset>
+			<legend><h2>Control</h2></legend>
+			<h3>Number of box: 
+			<input type="text" name="numbox" id="numbox">
+			<select name="color" id = "color">
+				<option value="maroon">Maroon</option>
+				<option value="lightgreen">Lightgreen</option>
+				<option value="magenta">Magenta</option>
+			</select>
+			<button id="start">Start</button></h3>
+			<h3><div id="timerClock"> Timer:
+				<div id="clock"></div></h3>
+			</div>
+		</fieldset>
+		<div id="container">
+			<div id="layer"></div>
+		</div>
+	</body>
+</html>

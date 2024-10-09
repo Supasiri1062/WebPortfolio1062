@@ -1,0 +1,113 @@
+.a{
+ /* Adjust the left padding as needed */
+    margin-left: 0px;
+}
+body{
+    background-color: rgb(255, 243, 230);
+}
+.text {
+    overflow: hidden; /* Ensure text wraps around the floated image */
+}
+#pizza_pic{
+	border: 5px solid rgb(163, 96, 96);
+    width: 20%
+}
+#pizza2_pic{
+	border: 5px solid rgb(163, 96, 96);
+	width: 20%;
+	float: left;
+}
+#pizza3_pic{
+	border: 5px solid rgb(163, 96, 96);
+	width: 15%;
+	float: bottom;
+}
+h1{
+	background-color: rgb(88, 37, 37);
+    color: rgb(219, 168, 168);
+}
+h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(88, 37, 37);
+}
+h3{
+	text-align: left;
+    font-size: 16px;
+    color: rgb(88, 37, 37);
+	padding-left: 5px; /* Adjust the left padding as needed */
+    margin-bottom: 1px;
+}
+h4{
+	text-align: left;
+    font-size: 12px;
+    color: rgb(88, 37, 37);
+}
+ul {
+    padding-left: 32%; /* Adjust the left padding as needed */
+    margin-bottom: 1px;
+}
+
+/* #flex_div{
+    display: flex;
+} */
+div a{
+	font-size: 20px;
+    color: rgb(88, 37, 37);
+}
+.grid-container {
+	display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+	border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color:white;
+}
+
+#header{
+	grid-column: 1 / span 3;
+}
+
+#main1{
+	grid-column: 1 / span 1;
+}
+
+#right{
+	grid-column: 2 / span 1;
+}
+
+#footer{
+	grid-column: 1 / span 3;
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+        grid-template-columns: auto 50%;
+        grid-gap: 10px;
+	}
+
+	#header{
+		grid-column: 1 / span 2;
+	}
+	h2{
+		font-size: 16px;
+	}
+	#main1{
+		grid-column: 1 / span 1;
+	}
+	#footer{
+		grid-column: 1 / span 2;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: flex;
+		flex-direction: column;
+	}
+}

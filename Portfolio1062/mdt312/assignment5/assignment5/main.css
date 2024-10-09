@@ -1,0 +1,33 @@
+body{
+    background-color: blanchedalmond;
+}
+img{
+    width: 30%;
+}
+้h1{
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(88, 37, 37);
+    color: rgb(219, 168, 168);
+}
+div .class1{
+    border: 2px solid magenta;
+    margin: auto;
+    width: 50%;
+    height: 100px;
+}
+p{
+    border: 2px solid rgb(6, 58, 23);
+    margin: auto;
+    width: 30%;
+    height: 100px;
+}
+@media only screen and (max-width: 767px){
+    .class1{
+        border: 2px solid blue;
+    }
+}
+div a{
+	font-size: 20px;
+    color: rgb(88, 37, 37);
+}
